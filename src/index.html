@@ -1,7 +1,23 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
   <head>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
     <meta
       http-equiv="X-UA-Compatible"
       content="ie=edge"
@@ -9,90 +25,49 @@
     <title>Moyo header</title>
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
-    />
-    <link
-      rel="stylesheet"
       href="./style.css"
     />
   </head>
   <body>
-    <header class="navbar">
-      <a
-        href="/"
-        class="logo"
-      >
+    <header class="header">
+      <a>
         <img
           src="images/logo.png"
-          alt="Логотип MOYO"
+          alt="logo"
+          class="logo"
         />
       </a>
       <nav>
-        <ul class="nav-links">
+        <ul class="list">
           <li>
-            <a
-              href="/"
-              class="is-active active"
-            >
-              APPLE
-            </a>
+            <a class="is-active apple list-link">Apple</a>
           </li>
           <li>
-            <a
-              href="/about"
-              class="no-active"
-            >
-              SAMSUNG
-            </a>
+            <a class="list-link">Samsung</a>
           </li>
           <li>
-            <a
-              href="/services"
-              class="no-active"
-            >
-              SMARTPHONES
-            </a>
+            <a class="'list-link">Smartphones</a>
           </li>
+
           <li>
             <a
-              href="/laptops"
-              class="no-active"
               data-qa="hover"
+              class="list-link"
             >
-              LAPTOPS & COMPUTERS
+              Laptops & Computers
             </a>
           </li>
           <li>
-            <a
-              href="/contact"
-              class="no-active"
-            >
-              GADGETS
-            </a>
+            <a class="'list-link">Gadgets</a>
           </li>
           <li>
-            <a
-              href="/contact"
-              class="no-active"
-            >
-              TABLETS
-            </a>
+            <a class="'list-link">Tablets</a>
           </li>
           <li>
-            <a
-              href="/contact"
-              class="no-active"
-            >
-              PHOTO
-            </a>
+            <a class="list-link">Photo</a>
           </li>
-          <li>
-            <a
-              href="/contact"
-              class="no-active"
-            >
-              VIDEO
-            </a>
+          <li class="video">
+            <a class="list-link">Video</a>
           </li>
         </ul>
       </nav>
